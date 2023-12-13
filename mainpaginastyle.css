@@ -1,0 +1,275 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+      font-size: 14px;
+    }
+  }
+
+ * {
+    padding: 0;
+    margin: 0;
+ } 
+
+h3 {
+    color: rgb(193,91,117);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 510px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+          
+}
+
+.logo {
+    height: auto;
+    width: 250px;
+    position: absolute;
+}
+
+#header-content {
+    width: 1360px;
+    height: 200px;
+    background-color: rgb(246, 245, 241) ;
+}
+
+
+body {
+    background-color: rgb(224, 189, 224);
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    display: flex;
+    
+}
+
+
+
+#search-box {
+    position: absolute;
+    left: 500px;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 350px;  
+    border-radius: 3px;
+   
+}
+#search-button {
+    position: absolute;
+    left: 810px;
+    max-width: 100px; 
+    max-height: 55px;
+    margin-top: 50px;
+    font-size: 21.5px;
+    border-radius: 3px;
+   
+}
+
+.advertentie {
+    height: 300px;
+    width: 801px;
+    background-color:rgb(203, 169, 207) ;
+    background-image: url(resources/ad.png);
+    background-size: cover;
+    margin-top: 25px;
+    position: sticky;
+    position: static;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    order: 2;
+}
+
+.onderdelen {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(203, 169, 207);
+    width: 771px;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    order: 2;
+    position: static;
+    text-decoration: none;
+
+}
+ 
+.kattenvoer {
+   min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+.voerbakken {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+
+.kattenspeelgoed {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+
+.kattenbak {
+    width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+.kattenluik {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+
+.krabpaal {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+.kattenmand {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+
+}
+
+.kattenmedicijnen {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+
+.kattenverzorging {
+    min-width: 235px;
+    height: 235px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+#sidearea1 {
+    height: 500px;
+    width: 200px;
+    order: -1;
+    background-color: rgb(185, 120, 175);
+    display: flex;
+    margin-right: 35px;
+    margin-top: 375px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url(resources/background.JPG);
+    background-size: cover;
+   
+}
+
+#sidearea2 {
+    height: 500px;
+    width: 200px;
+    display: flex;
+    order: 3;
+    background-color: rgb(185, 120, 175);
+    margin-left: 35px;
+    margin-top: 375px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url(resources/background.JPG);
+   background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-content {
+    width: 1360px;
+    height: 100px;
+    background-color: rgb(246, 245, 241) ;
+    margin-top: 100px;
+
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  .policy {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  
+  .policy a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+  }
+  

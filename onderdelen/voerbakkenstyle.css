@@ -1,0 +1,253 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+      font-size: 14px;
+    }
+  }
+  * {
+    padding: 0;
+    margin: 0;
+ } 
+h3 {
+    color: rgb(193,91,117);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 510px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+          
+}
+
+
+
+.logo {
+    height: auto;
+    width: 250px;
+    position: absolute;
+}
+
+#header-content {
+    width: 1360px;
+    height: 200px;
+    background-color: rgb(246, 245, 241) ;
+}
+
+
+body {
+    background-color: rgb(224, 189, 224);
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    display: flex;
+    
+}
+
+
+
+#search-box {
+    position: absolute;
+    left: 500px;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 350px;  
+    border-radius: 3px;
+   
+}
+#search-button {
+    position: absolute;
+    left: 810px;
+    max-width: 100px; 
+    max-height: 55px;
+    margin-top: 50px;
+    font-size: 21.5px;
+    border-radius: 3px;
+       
+}
+
+.advertentie {
+    height: 300px;
+    width: 801px;
+    background-color:rgb(203, 169, 207) ;
+    background-image: url(resources_pages/ad.png);
+    background-size: cover;
+    position: sticky;
+    position: static;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.producten{
+    height:1300px;
+    width: 1000px;
+    background-color: rgb(205, 216, 230);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product1 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+#product2 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product3 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product4 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product5 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+#product6 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product7 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product8 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product9 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+#product10 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product11 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product12 {
+    height: 360px;
+    width: 190px;
+    background-color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.imagevoerbakken {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.knop {
+    height: 20px;
+    width: 60x;
+    background-color: rgb(205, 216, 230);   
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    padding-left: 25%;
+    font-family:cursive;
+    font-size: 20px;
+    text-align: justify;
+    
+
+}
+
+#footer-content {
+    width: 1360px;
+    height: 100px;
+    background-color: rgb(246, 245, 241) ;
+    margin-top: 100px;
+
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  .policy {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  
+  .policy a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+  }
+  
